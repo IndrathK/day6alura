@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabele de Classificações</title>
+    <link rel="stylesheet" href="style.css">;
+    <script src="actions.js"></script>
+</head>
+<body>
+  <h1>Ranking de Lutadores </h1>
+  <div>
+    <input class="txt" type="text" name="novo" id="novo" placeholder="Nome do lutador">
+    <input id="teamIcon" placeholder="Insira o endereço do icone do time">
+    <button class="btn" onclick="inserirNovoLutador()"> Inserir </button>
+  </div>
+  <br>
+  <table style="width:100%">
+    <thead>
+      <tr>
+        <th>icone</th>
+        <th>Lutadores</th>
+        <th>Vitórias</th>
+        <th>Empates</th>
+        <th>Derrotas</th>
+        <th>Pontos</th>
+        <th colspan="4">Ações</th>
+      </tr>
+    </thead>
+    <tbody id="tabelaLutadores">
+
+    </tbody>
+</body>
+</html>
